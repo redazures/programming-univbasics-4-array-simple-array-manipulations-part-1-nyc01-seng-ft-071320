@@ -12,8 +12,12 @@ def pop_with_args(array,num)
   end
 end
 
-def using_shift
+def using_shift(array)
+  array.shift
 end
 
-def shift_with_args
+def shift_with_args(array,num)
+  num.times do
+    array.shift
+  end
 end
