@@ -13,8 +13,9 @@ end
 def pop_with_args(array)
 newarray=[]
   2.times do
-    new array<<array.pop
+    newarray<<array.pop
   end
+  newarray
 end
 
 def using_shift(array)
