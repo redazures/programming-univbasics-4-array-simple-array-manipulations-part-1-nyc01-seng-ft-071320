@@ -11,10 +11,10 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
+newarray=[]
   2.times do
-    array.pop
+    new array<<array.pop
   end
-  array
 end
 
 def using_shift(array)
