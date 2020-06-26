@@ -23,7 +23,9 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  num.times do
-    array.shift
+  newarray=[]
+    2.times do
+      newarray<<array.pop
+    end
+    newarray=newarray.reverse
   end
-end
