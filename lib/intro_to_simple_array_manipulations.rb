@@ -15,7 +15,7 @@ newarray=[]
   2.times do
     newarray<<array.pop
   end
-  newarray.reverse
+  newarray=newarray.reverse
 end
 
 def using_shift(array)
