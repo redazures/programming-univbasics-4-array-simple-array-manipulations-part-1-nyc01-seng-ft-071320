@@ -22,7 +22,7 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_args(array,num)
+def shift_with_args(array)
   num.times do
     array.shift
   end
